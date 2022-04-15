@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> YOUNGEUN WORLD </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="clock">00:00:00</h1>
+    <form class="hidden" id="login-form">  <!--input이 유효성 검사를 하기 위해서 form 안에 위치해야함-->
+        <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="이름을 입력하세요!"/><br>
+        <input type="submit" value="" style="border: none; background: transparent;"/>
+        <br>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="오늘 할 일은?" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        오늘의 노래 : 
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>

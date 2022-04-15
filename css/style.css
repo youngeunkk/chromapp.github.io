@@ -1,0 +1,74 @@
+#clock {
+    text-align: center;
+    padding-top: 1.0em;
+    font-size: 8em;
+    color: rgba(245, 245, 245, 0.712);
+}
+
+#greeting {
+    margin-top: 1.5em;
+    font-size: 4.0em;
+    color: rgba(245, 245, 245, 0.712);
+}
+
+#quote {
+    margin-top: 1.5em;
+    font-weight: bolder;
+    color: honeydew;
+    font-size: 1.8em;
+}
+
+.hidden {
+    display: none;
+}
+
+
+input {
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 1.3em;
+    color: rgba(245, 245, 245, 0.712);
+    border-bottom: 2px solid rgba(245, 245, 245, 0.712);
+}
+
+input::placeholder{
+    color: rgba(245, 245, 245, 0.712);
+    text-align: center;
+}
+
+button {
+    background: none;
+    border: 0;
+}
+
+li {
+    list-style: none;
+    color: rgba(245, 245, 245, 0.712);
+    font-size: 1.45em;
+    padding-bottom: 0.6em;
+}
+
+
+li:hover {
+    font-size: 1.7em;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+body {
+    text-align: center;
+    overflow: hidden;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:110%;
+}
+
